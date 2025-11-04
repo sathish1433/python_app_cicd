@@ -324,7 +324,7 @@ def button():
     
     return render_template('next.html', output=output)
 
-"""
+r"""
 def save_credentials(aadhaar_number, generated_otp):
     # Specify the directory to store the file
     directory = r'D:\project\client'
@@ -352,4 +352,5 @@ def save_credentials(aadhaar_number, generated_otp):
 
 if __name__ == '__main__':
     port = 8000 
-    app.run(debug=True, port=port)
+    app.run(host='0.0.0.0',debug=True, port=port)
+

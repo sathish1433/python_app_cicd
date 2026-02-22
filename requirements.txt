@@ -1,5 +1,6 @@
-Flask
-Flask-Cors
-Pillow
+flask
+flask-Cors
+pillow
 opencv-python
 requests
+
